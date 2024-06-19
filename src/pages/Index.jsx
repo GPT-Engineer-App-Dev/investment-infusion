@@ -2,7 +2,7 @@ import { Box, Container, Flex, Heading, Link, Text, VStack } from "@chakra-ui/re
 
 const Index = () => {
   return (
-    <Container maxW="container.xl">
+    <Container maxW="container.xl" bg="#fff1e5">
       {/* Header */}
       <Box as="header" bg="gray.800" color="white" py={4}>
         <Flex justify="space-between" align="center">
